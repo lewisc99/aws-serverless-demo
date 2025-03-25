@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLambda", "HelloLambda\HelloLambda.csproj", "{97E984C8-71EB-40EB-83D2-6516F49857FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentLambda", "StudentLambda\StudentLambda.csproj", "{A017062B-16E3-4537-8CBF-E8941691EF2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{97E984C8-71EB-40EB-83D2-6516F49857FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E984C8-71EB-40EB-83D2-6516F49857FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E984C8-71EB-40EB-83D2-6516F49857FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A017062B-16E3-4537-8CBF-E8941691EF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A017062B-16E3-4537-8CBF-E8941691EF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A017062B-16E3-4537-8CBF-E8941691EF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A017062B-16E3-4537-8CBF-E8941691EF2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
