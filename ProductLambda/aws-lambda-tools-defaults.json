@@ -14,7 +14,7 @@
   "function-timeout": 30,
   "function-handler": "ProductLambda::ProductLambda.Function::FunctionHandler",
   "framework": "net8.0",
-  "function-name": "Get Product",
+  "function-name": "get-product",
   "function-description": "Return all Products",
   "package-type": "Zip",
   "function-role": "arn:aws:iam::503561418427:role/lambda_exec_CreateBookingAsync",
