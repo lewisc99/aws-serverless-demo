@@ -20,4 +20,17 @@ public class Function
             StatusCode = 200,
         };
     }
+
+    public APIGatewayHttpApiV2ProxyResponse FunctionHandlerNameByUrl(APIGatewayHttpApiV2ProxyRequest request, ILambdaContext context)
+    {
+        string name = request.PathParameters["name"];
+
+        name = name ?? "John Doe";
+        var message = $"Hello {name}, from AWS lambda";
+        return new APIGatewayHttpApiV2ProxyResponse
+        {
+            Body = message,
+            StatusCode = 200,
+        };
+    }
 }
